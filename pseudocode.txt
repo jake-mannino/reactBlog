@@ -1,0 +1,12 @@
+
+app.js
+    mains plash page html
+    import blog posts
+     import porjects
+
+blogPosts.js
+
+projects.js
+
+
+nav bar pages {array loop}

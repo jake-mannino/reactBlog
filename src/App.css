@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("./imgs/rome\ sunset-0018.jpg");
+  background-size: cover;
 }
 
 .App-logo {
@@ -21,11 +23,46 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(122, 66, 66, 0.6);;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+.btn btn-secondary:hover {
+    opacity: 0.4;
+    color: rgb(20, 34, 240);
+}
+
+
+
+.accordion-collapse collapse: {
+ opacity:  0.6; 
+  justify-self: center;
+}
+
+.accordion-button collapsed:hover {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.accordion-item:hover {
+  background-color: rgb(223, 210, 174, 0.4);
+  opacity: 0.9;
+  text-align: center;
+  text-decoration-color: rgb(240, 255, 255, 0.8);
+}
+.accordion {
+background-color: rgba (201, 76, 76, 0.7);
+}
+
+.container {
+  background-image: url("./imgs/IMG_7307.JPG");
+  background-size: cover;
+  min-width: 500px;
+  min-height: 500px;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +73,45 @@
     transform: rotate(360deg);
   }
 }
+
+.funkRaptor {
+    background-image: url("./imgs/funkRaptor.jpg");
+    background-size: contain;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.souls {
+    background-image: url("./imgs/cursed 14.jpg");
+    background-size: contain;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.matrixDog {
+  background-image: url("./imgs/IMG_7374.JPG");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 700px;
+  min-height: 700px;
+} 
+
+.where {
+  background-image: url("./imgs/IMG_7368.JPG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 1300px;
+  min-height: 1300px;
+} 
+
+
+.exist {
+  background-image: url("./imgs/IMG_7354.JPG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 1000px;
+  min-height: 1000px;
+} 
